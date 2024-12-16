@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.setup-form {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.setup-form h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.setup-form h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #444;
+  text-align: left;
+}
+
+.setup-form p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+input[type="file"] {
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Navigation Buttons */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation button {
+  width: 48%;
+}
+
+.navigation button:last-child {
+  background-color: #28a745;
+}
+
+.navigation button:last-child:hover {
+  background-color: #218838;
+}
+
+/* Social Links Section */
+.social-links {
+  margin-bottom: 15px;
+}
+
+.social-links label {
+  display: block;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.add-social-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-social-link:hover {
+  background-color: #138496;
+}
+
+/* File Upload Section */
+.file-upload {
+  margin-bottom: 15px;
+}
+
+.file-upload input {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/* Progress Information */
+.progress-bar {
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  margin: 20px 0;
+  height: 10px;
+}
+
+.progress-bar div {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Congratulations Screen */
+.congratulations {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.congratulations p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.congratulations button {
+  margin-top: 10px;
+  background-color: #17a2b8;
+}
+
+.congratulations button:hover {
+  background-color: #138496;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .setup-form {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .navigation button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navigation button:last-child {
+    margin-bottom: 0;
+  }
+}

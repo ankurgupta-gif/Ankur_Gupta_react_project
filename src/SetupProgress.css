@@ -1,0 +1,140 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+
+  .setup-progress {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  input[type="file"] {
+    border: none;
+    padding: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    width: 48%;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  @media (max-width: 600px) {
+    .setup-progress {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    h1, h2 {
+      font-size: 20px;
+    }
+  
+    input, textarea, select {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    .navigation-buttons button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .setup-progress {
+      padding: 20px;
+    }
+  
+    h1, h2 {
+      font-size: 24px;
+    }
+  
+    input, textarea, select {
+      font-size: 15px;
+    }
+  
+    button {
+      font-size: 15px;
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .setup-progress {
+      max-width: 800px;
+    }
+  
+    h1, h2 {
+      font-size: 28px;
+    }
+  }
+  
